@@ -1,0 +1,11 @@
+@font-face{
+    font-family: "Minecraft-Seven";
+    src: "fonts/Minecraft-Seven";
+}
+body{
+    background-color: white;
+}
+header{
+    font-family: "Minecraft-Seven";
+    text-align: center;
+}
