@@ -1,0 +1,16 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+header img {
+    width: 100%;
+}
+main {
+    text-align: center;
+}
+.circle {
+    width: 15%;
+    border-radius: 50%;
+    border: 12px solid rgb(70, 70, 70);
+    margin: 5%;
+}
