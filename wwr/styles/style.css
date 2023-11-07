@@ -8,6 +8,14 @@
     font-size: 2em;
     margin-top: 10px;
 }
+.rivers-title {
+    color: #12263A;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
 h4 {
     color: #12263A;
 }
@@ -71,6 +79,40 @@ nav a:hover {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+}
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 70px;
+}
+.rivers-desc {
+    width: 95%;
+    margin: 0 auto;
+    color: #12263A;
+    background-color: #64B6AC;
+    box-shadow: 5px 5px 10px #6f7364;
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 20px;
+    grid-template-rows: 20px 50px 1fr 20px;
+    align-items: center;
+    border: #12263A solid 5px;
+}
+.rivers-image {
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+.rivers-name {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.rivers-text {
+    margin: 10px;
+    text-align: left;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
