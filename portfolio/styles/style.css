@@ -158,9 +158,16 @@ nav a:hover {
     width: 350px;
     height: 350px;
     overflow: hidden;
+    position: relative;
 }
 .section-gallery img {
     height: 350px;
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
 }
 
 .section-contact {
