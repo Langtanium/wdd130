@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div>
+    <div id="content">
         <header>
-            <a href="index.html">
-                <img src="images/icon_langtanium.png" alt="Lantanium's logo">
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/icon_langtanium.png" alt="Lantanium's logo">
             </a>
             <nav>
                 <a href="#">Home</a>
@@ -19,18 +19,18 @@
                 <a href="gallery.html">Gallery</a>
             </nav>
         </header>
-        <main>
-            <section>
+        <main class="home-grid">
+            <section class="section-h2">
                 <h2>I am Eric Martinez and I'm a 3d artist and programmer. Making 3d art and programming are my 
                 passions. Here you will find all my works. </h2>
             </section>
-            <section>
+            <section class="section-programming">
                 <p>From a young age programming was the first to catch my attention and become one of my 
                 interests. Here is more on what I do as a programmer. </p>
                 <a href="programming.html">See More</a>
-                <img src="images/python_logo.png" alt="Python logo">
+                <img id="programming-icon" src="images/python_logo.png" alt="Python logo">
             </section>
-            <section>
+            <section class="section-animation">
                 <img src="images/tribot_render.png" alt="A render of a character named Tribot">
                 <a href="animation.html">See More</a>
                 <p>3d Render I made of a fictional character called Tribot from the Sonic the Hedgehog 
@@ -38,33 +38,39 @@
                 <p>Later on, I gained an interest in 3d animation which led to me learning how to make 3d 
                 models. More on what I do as a 3d artist.</p>
             </section>
-            <section>
-                <p>Here is an extensive gallery of what I have made so far. Click here to see more of what I 
+            <section" class="section-gallery">
+                <p>Here is an extensive gallery of what I have made so far.<br>Click here to see more of what I 
                 make.</p>
-                <a href="gallery.html">Gallery</a>
-                <div>
-                    <img src="images/echantment_glint_test.png" alt="Alex wearing enchated netherite gear">
-                    <img src="images/inkling_smartphone_render.png" alt="Fiction smartphone from the game 
-                    Splatoon">
-                    <img src="images/steve_trails_and_tails_armor.png" alt="Steve wearing trimmed armor">
+                <p><a href="gallery.html">Gallery</a></p>
+                <div class="gallery-grid">
+                    <div>
+                        <img src="images/echantment_glint_test.png" alt="Alex wearing enchanted netherite gear">
+                    </div>
+                    <div>
+                        <img src="images/inkling_smartphone_render.png" alt="Fiction smartphone from the game 
+                        Splatoon">
+                    </div>
+                    <div>
+                        <img src="images/steve_trails_and_tails_armor.png" alt="Steve wearing trimmed armor">
+                    </div>
                 </div>
             </section>
-            <section>
+            <section class="section-contact">
                 <p>Interested in what I do, click here to see how to contact me.</p>
-                <a href="contactme.html">Contact Links</a>
+                <p><a href="contactme.html">Contact Links</a></p>
             </section>
         </main>
         <footer>
             <p>Langtanium &copy; 2023 - Eric Martinez</p>
             <p><a href="site-plan.html">Site Plan</a></p>
-            <div>
-                <a href="https://twitter.com/langtanium">
+            <div class="social">
+                <a href="https://twitter.com/langtanium" target="_blank">
                     <img src="images/twitter-x_logo.png" alt="Twitter logo">
                 </a>
-                <a href="https://github.com/Langtanium/">
+                <a href="https://github.com/Langtanium/" target="_blank">
                     <img src="images/github_logo.png" alt="GitHub logo">
                 </a>
-                <a href="https://www.youtube.com/channel/UCYjkgGSGad6l1N05DpqgihA">
+                <a href="https://www.youtube.com/channel/UCYjkgGSGad6l1N05DpqgihA" target="_blank">
                     <img src="images/youtube_logo.png" alt="YouTube logo">
                 </a>
             </div>
